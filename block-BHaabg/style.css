@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+header{
+    background-color: rgb(140, 140, 233);
+      position: fixed;
+     top: 0;
+     left: 0;
+     right: 0; 
+     
+    
+}
+img{
+    width: 100px;
+    height: 75px;
+    margin-left: 45px;
+}
+nav{
+    padding: 32px;
+    float: right;
+
+}
+a{
+    margin-right: 45px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+.container{
+    max-width: 1200px;
+    padding: 64px;
+    background-color: antiquewhite;
+    margin: 75px;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.col{
+    width: 30.33%;
+    float: left;
+}
+.photo{
+    width: 500px;
+    height: 300px;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: blue;
+}
+.col-2{
+    padding-left: 52px;
+}
+
+.member{
+    width: 300px;
+    height: 250px;
+}
+.clearfix1::before, .clearfix1::after{
+    content: "";
+    display: table;
+}
+.clearfix1::after{
+    clear: both;
+}
+footer{
+    background-color: rgb(140, 140, 233);
+    height: 75px;
+    position: relative;
+    bottom: 0;
+    
+}
+.footer{
+    border: 1px solid green;
+    width: 20px;
+    height: 20px;
+    float: right;
+    padding: 24px;
+    background-color: red;
+    color: black;
+    border-radius: 30%;
+    position: fixed;
+    bottom: 0;
+}
